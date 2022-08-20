@@ -23,13 +23,7 @@ const floating = ()=> {
     flag = 0;
 }
 
-Section_1 = document.getElementById("Section_1")
-Section_1.addEventListener("mouseenter", floating)
-
-Section_1.addEventListener("mouseout", ()=>{
-    Section_1.removeEventListener("mouseenter", floating);
-    flag = 0;
-})
+floating()
 
 
 
