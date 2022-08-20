@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Sumukh_Interiors_Website/Frontend/index.css">
+</head>
+
+<body>
+    <div id="All_Sections">
+        <div id="Section_1">
+            <nav>
+                <ul>
+                    <div id="Company">
+                        <li>Sumukh Interiors</li>
+                    </div>
+                    <div id="Navigation">
+                        <li><a href="#Section_2">Gallery</a></li>
+                        <li><a href="#Section_3">My Skills</a></li>
+                        <li><a href="#Section_4">Client Testimonials</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <img src="/Sumukh_Interiors_Website/Assets/Floating Circle 1.svg" alt="" id="Floating_Circle_1">
+            <img src="/Sumukh_Interiors_Website/Assets/Floating Circle 2.svg" alt="" id="Floating_Circle_2">
+            <div id="Hero">
+                <div id="Tagline">
+                    <h3>
+                        Happiest Homes are
+                    </h3>
+                    <h1>Well Designed</h1>
+                    <p>
+                        Specialised work in carpentary, gypsum, ceiling, painting, plumbing and other interior work
+                    </p>
+                    <div id="buttons">
+                        <a href="#Section_5"><button id="contact">Contact Us</button></a>
+                        <a href="#Section_2"><button id="view_gallery">View Gallery</button></a>
+                    </div>
+                    <div id="Empty"></div>
+                </div>
+                <div id="HeroImage">
+                    <img src="/Sumukh_Interiors_Website/Assets/Hero Image Subject.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="Section_2">
+            <img src="/Sumukh_Interiors_Website/Assets/Marble Texture.jpg" alt="" class="Marble">
+            <div id="Gallery">
+                <span>
+                    <h3>Gallery</h3>
+                </span>
+                <span>
+                    <img src="/Sumukh_Interiors_Website/Assets/Menu.svg" alt="" id="Menu">
+                </span>
+            </div>
+            <div id="Images">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_1.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_2.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_3.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_4.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_5.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_6.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_7.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_8.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_9.jpg" alt="">
+                <img src="/Sumukh_Interiors_Website/Assets/ID_10.jpg" alt="">
+            </div>
+        </div>
+        <div id="Section_3">
+            <img src="/Sumukh_Interiors_Website/Assets/Floating Triangles.svg" alt="" id="Floating_Triangles">
+            <div id="Team_Skills">
+                <h3>My Team's Skills</h3>
+            </div>
+            <div id="Card_Group">
+                <div class="Card" id="Card_1">
+                    <h4>
+                        <img src="/Sumukh_Interiors_Website/Assets/Carpentry.svg" alt="" class="Icons">
+                        <P>
+                            Carpentry
+                        </P>
+                    </h4>
+                    <p>Skilled Artisan’s at work!</p>
+                </div>
+                <div class="Card" id="Card_2">
+                    <h4>
+                        <img src="/Sumukh_Interiors_Website/Assets/Design.svg" alt="" class="Icons">
+                        <P>
+                            Interior Design
+                        </P>
+                    </h4>
+                    <p>Computer Aided Designs to custom fit your needs!</p>
+                </div>
+                <div class="Card" id="Card_3">
+                    <h4>
+                        <img src="/Sumukh_Interiors_Website/Assets/Plumbing.png" alt="" class="Icons">
+                        <P>
+                            Plumbing
+                        </P>
+                    </h4>
+                    <p>No fixtures left loose!</p>
+                </div>
+            </div>
+        </div>
+        <div id="Section_4">
+            <img src="/Sumukh_Interiors_Website/Assets/Marble Texture.jpg" alt="" class="Marble">
+            <div id="Client">
+                <h3>Client Testimonials</h3>
+            </div>
+            <div id="Enclosure">
+                <img src="/Sumukh_Interiors_Website/Assets/Left Arrow.png" alt="" class="Arrows">
+                <div id="Content">
+                    <img src="/Sumukh_Interiors_Website/Assets/Client_photo.svg" alt="">
+                    <div id="Text">
+                        <h3>Robert Jones Says</h3>
+                        <p>Ashish is really easy to work with! The service provided by him is remarkable, the workers
+                            are
+                            kind and skilled!</p>
+                        <span>
+                            <img src="/Sumukh_Interiors_Website/Assets/Location.png" alt="" id="Location">
+                            <p>Mumbai</p>
+                        </span>
+                    </div>
+                </div>
+                <img src="/Sumukh_Interiors_Website/Assets/Right Arrow.png" alt="" class="Arrows">
+            </div>
+        </div>
+        <div id="Section_5">
+            <h3>Wish to get in contact? Drop in a message!</h3>
+            <form action="POST">
+                <div>
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name">
+                    <label for="Contact">Contact</label>
+                    <input type="text" name="Contact">
+                    <label for="Message">Enter your message here</label>
+                    <Textarea name="Message" cols="30" rows="10" id="Message"></Textarea>
+                    <button type="submit" id="send">Send message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="/Sumukh_Interiors_Website/Frontend/index.js"></script>
+</body>
+
+</html>
